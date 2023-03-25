@@ -14,9 +14,30 @@ body{
 
 header{
     padding: 100px;
-    background-color: brown;
-    margin: 0;
+    background-color: rgba(38,19,0,255);
+    margin: 0 auto;
     color: #fff;
+}
+
+header h1{
+    margin: 0;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+header div span{
+    color: #b8b5b5
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
 }
 
 header, main, footer{
@@ -38,8 +59,14 @@ header, main, footer{
     text-decoration: none;
     color: #fff;
 }
+
+.pages a:hover{
+    padding: 15px;
+    background-color: rgba(191,30,75,255);
+} 
 .welcome{
-    background-color: orange;
+    background-color: rgba(220,87,46,255);
+    color: rgba(38,19,0,255);
     margin: 0;
     padding: 90px;
 }
@@ -47,12 +74,26 @@ header, main, footer{
 .welcome h2{
     margin: 0;
     justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.welcome small{
+    display: flex;
+    text-align: center;
 }
 
 .texto-centralizado{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.texto-centralizado h2{
+    margin-bottom: 0px;
 }
 
 .portifolio{
@@ -63,21 +104,63 @@ header, main, footer{
 }
 
 button{
-    padding: 15px;
+    padding: 20px 40px;
     background-color: rgb(165, 19, 68);
+    border-width: 0px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .box{
     width: 260px;
+    text-align: center;
 }
 
 .box2{
     width: 200px;
+    text-align: center;
+}
+
+.box2 button{
+    margin-top: 25px;
 }
 
 footer{
     padding: 100px;
-    background-color: brown;
+    background-color: rgba(38,19,0,255);
     margin-top: 60px;
+    color: #aca2a2;
+}
+
+footer h4{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-footer{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    margin-left: 135px;
+}
+
+.menu-footer a{
+    text-decoration: none;
     color: #fff;
+}
+
+.menu-footer li{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.icon{
+    width: 10px;
+}
+
+hr{
+    border-color: rgb(87, 63, 4);
+    margin-top: 50px;
 }
