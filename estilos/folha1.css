@@ -147,3 +147,79 @@ footer{
     justify-content: space-between;
     padding: 10px 0;
 }
+
+@media (min-width:577px) and (max-width:768px){
+    header, main, footer{
+        width: 660px;
+        margin: 0 auto;
+    }
+
+    .portifolio{
+        flex-wrap: wrap;
+    }
+
+    .portifolio .box:nth-child(1){
+        width: 49%;
+        margin: 1px;
+        font-size: 11px;
+    }
+
+    .portifolio .box:nth-child(2){
+        width: 49%;
+        margin: 1px;
+        font-size: 11px;
+    }
+
+    .portifolio .box{
+        height: 172px;
+    }
+
+    .portifolio .box:last-child{
+       width: 100%;
+       margin: 1px;
+    }
+
+    .motivacao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .last{
+        display: none;
+    }
+
+    .secao-secundaria{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 576px){
+    header, main, footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .banner article h2{
+        font-size: 2em;
+        top: 0;
+    }
+
+    .banner small{
+        font-size: 10px;
+    }
+
+    .portifolio{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portifolio .box{
+        width: 100%;
+    }
+}
