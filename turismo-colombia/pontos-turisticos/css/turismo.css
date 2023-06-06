@@ -1,0 +1,39 @@
+@import url("../../css/main.css");
+
+.titulo-page{
+    font-size: 60px;
+}
+
+.img-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caixa-descricao {
+    padding-top: 50px;
+}
+
+.descricao {
+    background-color: var(--bg-primary-color);
+}
+
+.artigos {
+    background-color: var(--bg-caixa-texto);
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.artigos img {
+    width: 346px;
+    height: 194px;
+}
+
+.titulo-artigo {
+    color: var(--titulo-texto-info);
+}
+
+.texto-artigo {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-content: end;
+}
