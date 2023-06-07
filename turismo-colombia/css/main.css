@@ -62,6 +62,11 @@ hr {
     padding-top: 30px;
 }
 
+.img-titulo{
+    width: 288px;
+    height: 169px;
+}
+
 .apresentacao{
     background-color: var(--bg-primary-color);
     padding-top: 20px;
