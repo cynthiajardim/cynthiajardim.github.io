@@ -4,3 +4,22 @@
     width: 237px;
     height: 233px;
 }
+
+.artistas card:hover{
+    cursor: pointer;
+}
+
+.subtitulo{
+    color: var(--titulo-texto-info);
+}
+
+.modal{
+    display: none;
+}
+.conteudo-modal{
+    width: 70%;
+    height: 400px !important;
+    margin-top: 60px;
+    background-color: var(--bg-color-padrao);
+    border-radius: 12px;
+}
