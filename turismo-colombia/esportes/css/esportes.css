@@ -1,0 +1,10 @@
+@import url("../../css/main.css");
+
+.titulo {
+    color: var(--titulo-texto-info);
+}
+
+.img-esporte {
+    width: 415px;
+    height: 211px !important;
+}
