@@ -1,5 +1,9 @@
 @import url("../../css/main.css");
 
+h1{
+    font-size: 60px !important;
+}
+
 .titulo-page{
     font-size: 60px;
 }

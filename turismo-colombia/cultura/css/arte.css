@@ -1,4 +1,7 @@
 @import url("../../css/main.css");
+h1{
+    font-size: 60px !important;
+}
 
 .img-artista {
     width: 237px;
