@@ -34,13 +34,6 @@ a:hover{
     height: 53px;
 }
 
-.nav-item :hover{
-    border-color: var(--border-color-padrao);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 6px;
-}
-
 .navbar-nav li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -48,7 +41,9 @@ a:hover{
     letter-spacing: 3px;
 }
 
-
+.navbar-nav li:hover{
+    color: var( --titulo-texto-info);
+}
 
 /** SEÇÃO DE APRESENTAÇÃO */
 
@@ -74,8 +69,8 @@ hr {
 }
 
 .img-titulo{
-    width: 288px;
-    height: 169px;
+    width: 288px !important;
+    height: 192px !important;
 }
 
 .apresentacao{
@@ -153,7 +148,7 @@ hr {
     letter-spacing: 10px;
 }
 
-.destinos h1 {
+.destinos h2 {
     font-size: 60px;
 }
 

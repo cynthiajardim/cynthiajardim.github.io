@@ -5,6 +5,10 @@
     height: 233px;
 }
 
+.artistas{
+    margin-left: 8% !important;
+}
+
 .artistas card:hover{
     cursor: pointer;
 }
